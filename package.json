@@ -1,0 +1,22 @@
+{
+  "name": "murad-ahmadov-portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "portfolio",
+    "project\u001b[1;5D\u001b[D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[Dmyprojects",
+    "sass",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Murad Ahmadov",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.50.1"
+  }
+}

@@ -1,0 +1,16 @@
+@use 'custom';
+
+// import the components
+@use 'components/animations';
+@use 'components/mixins';
+
+// import the sections
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/about-me';
+@use 'sections/get-in-touch';
+@use 'sections/footer';
+@use './contact/sections/contact';
+@use './portfolio/sections/portfolio';
+
+

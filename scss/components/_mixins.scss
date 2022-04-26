@@ -1,0 +1,18 @@
+@mixin navbar-collapse {
+    /*** Animate collapse into X. */
+
+    /* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
+    &:not(.collapsed) span:nth-child(1) {
+        transform: translate(15%, -33%) rotate(45deg);
+    }
+
+    /* center line goes transparent */
+    &:not(.collapsed) span:nth-child(2) {
+        opacity: 0;
+    }
+
+    /* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
+    &:not(.collapsed) span:nth-child(3) {
+        transform: translate(15%, 33%) rotate(-45deg);
+    }
+}
